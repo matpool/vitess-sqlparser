@@ -19,10 +19,10 @@ package sqlparser
 import (
 	"strings"
 
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/matpool/vitess-sqlparser/go/vt/log"
+	querypb "github.com/matpool/vitess-sqlparser/go/vt/proto/query"
+	"github.com/matpool/vitess-sqlparser/go/vt/proto/vtrpc"
+	"github.com/matpool/vitess-sqlparser/go/vt/vterrors"
 )
 
 // PrepareAST will normalize the query

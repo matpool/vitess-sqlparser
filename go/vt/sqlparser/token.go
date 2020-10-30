@@ -22,8 +22,8 @@ import (
 	"io"
 	"strings"
 
-	"vitess.io/vitess/go/bytes2"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/matpool/vitess-sqlparser/go/bytes2"
+	"github.com/matpool/vitess-sqlparser/go/sqltypes"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"io"
 	"sync"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/matpool/vitess-sqlparser/go/vt/log"
+	"github.com/matpool/vitess-sqlparser/go/vt/vterrors"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/matpool/vitess-sqlparser/go/vt/proto/vtrpc"
 )
 
 // parserPool is a pool for parser objects.

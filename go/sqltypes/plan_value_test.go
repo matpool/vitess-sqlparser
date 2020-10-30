@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
+	querypb "github.com/matpool/vitess-sqlparser/go/vt/proto/query"
 	"github.com/stretchr/testify/assert"
-	querypb "vitess.io/vitess/go/vt/proto/query"
 )
 
 func TestPlanValueIsNull(t *testing.T) {

@@ -22,12 +22,12 @@ import (
 	"strings"
 	"testing"
 
-	"vitess.io/vitess/go/test/utils"
+	"github.com/matpool/vitess-sqlparser/go/test/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/matpool/vitess-sqlparser/go/vt/proto/query"
 )
 
 func TestProtoConversions(t *testing.T) {

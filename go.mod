@@ -1,4 +1,4 @@
-module vitess.io/vitess
+module github.com/matpool/vitess-sqlparser
 
 go 1.13
 

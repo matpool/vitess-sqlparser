@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/matpool/vitess-sqlparser/go/sqltypes"
 )
 
 /*

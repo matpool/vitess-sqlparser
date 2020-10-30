@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"vitess.io/vitess/go/bytes2"
-	"vitess.io/vitess/go/hack"
+	"github.com/matpool/vitess-sqlparser/go/bytes2"
+	"github.com/matpool/vitess-sqlparser/go/hack"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/matpool/vitess-sqlparser/go/vt/proto/query"
 )
 
 var (

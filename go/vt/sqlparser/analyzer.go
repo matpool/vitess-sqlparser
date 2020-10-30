@@ -23,10 +23,10 @@ import (
 	"strings"
 	"unicode"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/matpool/vitess-sqlparser/go/sqltypes"
+	"github.com/matpool/vitess-sqlparser/go/vt/vterrors"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/matpool/vitess-sqlparser/go/vt/proto/vtrpc"
 )
 
 // StatementType encodes the type of a SQL statement

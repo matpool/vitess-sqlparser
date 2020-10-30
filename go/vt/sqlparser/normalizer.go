@@ -19,9 +19,9 @@ package sqlparser
 import (
 	"strconv"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/matpool/vitess-sqlparser/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/matpool/vitess-sqlparser/go/vt/proto/query"
 )
 
 // Normalize changes the statement to use bind values, and
